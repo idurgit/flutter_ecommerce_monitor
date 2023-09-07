@@ -202,7 +202,7 @@ class _CartPageState extends State<CartPage> {
                                       padding: const EdgeInsets.only(
                                           left: 10, top: 5),
                                       child: Text(
-                                        'Rp. ${dataSet.elementAt(index).attributes!.price}',
+                                        'Rp ${formatAngka(dataSet.elementAt(index).attributes!.price)}',
                                         style: const TextStyle(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
