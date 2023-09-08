@@ -42,7 +42,7 @@ class _AuthPageState extends State<AuthPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Welcome',
+                'TOKO MONITOR',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w500,
